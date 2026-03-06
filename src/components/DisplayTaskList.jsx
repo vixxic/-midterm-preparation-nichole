@@ -62,9 +62,11 @@ function DisplayTaskList() {
         <hr />
 
         <div className="list-box">
-          {filteredTasks.map((task, index) => (
-            <Task key={index} task={task} />
-          ))}
+          {filteredTasks.length === 0 ? (
+            <p>No tasks available</p>
+          ) : (
+            filteredTasks.map((task) => <Task key={task.id} task={task} />)
+          )}
         </div>
       </div>
     </>
