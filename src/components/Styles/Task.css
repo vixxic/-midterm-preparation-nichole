@@ -1,0 +1,64 @@
+.task-outer {
+  background-color: #faf9f6;
+  width: 100%;
+  display: flex;
+}
+
+.task-inner {
+  padding: 0.7em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.task-inner h3 {
+  margin: 0%;
+  width: 98%;
+}
+
+.task-des {
+  display: flex;
+  gap: 0.5em;
+}
+
+.task-des div {
+  padding: 0 0.5em;
+  border-radius: 2px;
+}
+
+.task-des-category {
+  background-color: #ebe7de;
+  color: #665951;
+}
+
+.task-des-due {
+  background-color: #e8eaf6;
+  color: #475ab1;
+}
+.color-priority {
+  width: 1%;
+  height: 100%;
+}
+
+.priority-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.task-btn {
+  padding: 0.5em 0.7em;
+  border-radius: 2px;
+  font-size: 0.7em;
+  margin-right: 0.5em;
+}
+.complete {
+  border: solid 1px green;
+  color: green;
+  background-color: #faf9f6;
+}
+.delete {
+  border: solid 1px rgb(167, 1, 1);
+  color: rgb(167, 1, 1);
+  background-color: #faf9f6;
+}

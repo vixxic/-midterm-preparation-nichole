@@ -1,0 +1,55 @@
+.display-task-outer {
+  background-color: #f7f4ef;
+  flex: 1;
+  padding: 2em;
+}
+
+.statistics-box {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+
+.filter-box {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.filter-btn {
+  background-color: #faf9f6;
+  border: solid 1px #e0dcd5;
+  padding: 0.5em 1em;
+  font-size: 0.7em;
+}
+
+.filter-btn:focus {
+  background-color: #1a1a18;
+  color: #faf9f6;
+  border: solid 1px #0a0a0a;
+}
+
+.display-task-outer label,
+.display-task-outer p {
+  font-size: 0.7em;
+  margin: 0%;
+}
+
+.list-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  overflow-y: scroll;
+  height: 39vh;
+}
+
+.statistic {
+  background-color: #faf9f6;
+  border: solid 1px #e0dcd5;
+  padding: 0.5em 1em;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

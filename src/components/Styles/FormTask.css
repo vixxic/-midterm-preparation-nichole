@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.priority-con {
+  display: flex;
+  gap: 0.5em;
+}
+
+.priority-box {
+  display: flex;
+  margin-bottom: 0.5em;
+  flex-direction: column;
+}
+
+.priority-box label {
+  display: flex;
+  gap: 1em;
+
+  align-items: center;
+}
+
+.priority-box input {
+  margin: 0;
+}
+
+.form-task-outer {
+  background-color: #f0ece4;
+  padding: 1.5em;
+}
+
+.form-title {
+  font-size: 0.7em;
+}
+
+.form-task-outer label,
+.form-task-outer p {
+  font-size: 0.7em;
+}
+
+.form-task-outer input,
+.form-task-outer select,
+.form-task-outer textarea,
+.form-task-outer button {
+  margin: 0.5em 0;
+}
+
+hr {
+  margin-bottom: 1em;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+.add-button {
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.add-button {
+  background-color: #1a1a18;
+  color: white;
+  border: solid 2px #1a1a18;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin: 5px 0 0 0;
+}
+
+.completed {
+  opacity: 0.5;
+  text-decoration: line-through;
+  transform: scale(0.98);
+  transition: all 0.3s ease;
+}
